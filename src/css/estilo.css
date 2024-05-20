@@ -49,4 +49,117 @@ small {
 /* Transição para o botão*/
 body {
     transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização da linha horizontal */
+hr {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Botão "Mudar Cor" */
+#enviar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#enviar:hover {
+    background-color: #45a049;
+}
+
+/* "Banner" */
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 20px auto;
+}
+
+#imgBanner {
+    border: 3px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#cardapio{
+    text-align: center;
+}
+/* Cards de Receitas */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card {
+    width: calc(33.333% - 40px);
+    /* Calcula o tamanho do card com margem */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    background-color: white;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+}
+
+.card-button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.card-button:hover {
+    background-color: #45a049;
 }
