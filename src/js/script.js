@@ -30,3 +30,27 @@ function slideShow(){
     setTimeout('slideShow()', time);
 }
 slideShow();
+
+//Função do Contato
+function enviar_contato(){
+    function contemApenasNumeros(texto) {
+        return /^[0-9]+$/.test(texto);
+    }    
+    var nome = document.getElementById("Nome").value
+    var tel = document.getElementById("Tel").value
+    var email = document.getElementById("E-mail_contato").value
+    let regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (nome != "" && tel != "" && email != ""){
+        if (regex.test(email) && contemApenasNumeros(tel) ) {
+            alert("Contato enviado com sucesso ✅")
+            window.location.href = "index.html"
+        } else {
+            alert("Contato inválido ❌");
+        }
+
+
+    }else{
+        alert("Existem campos não preenchidos")
+    }
+}
