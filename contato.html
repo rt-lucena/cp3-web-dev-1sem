@@ -9,6 +9,27 @@
 <body>
     
 
+    <header>
+        <h1>Receitas Deliciosas</h1>
+        <a href="index.html">Página Incial</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="login.html">Login</a>
+        <button id="enviar" onclick="mudarCor()">Mudar Cor</button>
+    </header>
+
+    <hr>
+
+    <div id="bloco_contato">
+        <h2>Contato</h2>
+        <p>Nome:</p>
+        <input type="text" id="Nome" placeholder="Digite seu nome">
+        <p>Telefone:</p>
+        <input type="tel" id="Tel" placeholder="(xx) xxxx-xxxx">
+        <p>E-mail:</p>
+        <input type="email" id="E-mail_contato" placeholder="Digite seu email">
+        <button id="enviar" onclick="enviar_contato()">Enviar</button>
+    </div>
+
     <script src="./src/js/script.js"></script>
 
 </body>
