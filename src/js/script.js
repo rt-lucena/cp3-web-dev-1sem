@@ -54,3 +54,21 @@ function enviar_contato(){
         alert("Existem campos não preenchidos")
     }
 }
+
+//Função do login
+function teste_log(){
+    var log = document.getElementById("e-mail").value;
+    var pass = document.getElementById("password").value;
+    if(log != "" && pass != ""){
+        if (log == 'feliciano@gmail.com' && pass == '123456789'){
+            alert("Dados validados\nBem vindo novamente")
+            window.location.href = "quiz.html"
+
+        }
+        else{
+            alert("E-mail ou senha incorreta")
+        }
+    }else{
+        alert("Campos não preenchindos")
+    }
+}
