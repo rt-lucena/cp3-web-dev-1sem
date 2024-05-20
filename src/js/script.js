@@ -13,3 +13,20 @@ function mudarCor() {
     document.body.style.backgroundColor = cores[corAtual % cores.length];
     corAtual++;
 }
+
+//SLIDESHOW
+let imagens=['./src/assets/slide1.jpg','./src/assets/slide2.jpg','./src/assets/slide3.jpg','./src/assets/slide4.jpg'];
+let index =0;
+let time= 3000;
+
+//FUNÇÃO SLIDESHOW
+function slideShow(){
+    document.getElementById('imgBanner').src=imagens[index];
+    index++;
+
+    if(index == imagens.length){
+        index=0;
+    }
+    setTimeout('slideShow()', time);
+}
+slideShow();
