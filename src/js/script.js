@@ -72,3 +72,43 @@ function teste_log(){
         alert("Campos não preenchindos")
     }
 }
+
+//Quiz
+function startQuiz() {
+    var score = 0;
+
+    var questions = [
+    "Qual é o ingrediente principal do prato italiano 'Carbonara'?",
+    "Qual é o país de origem do sushi?",
+    "O que é utilizado para fazer um molho pesto tradicional?",
+    "Qual é o prato típico mexicano feito com tortilhas de milho enroladas?",
+    "Qual é o nome do prato italiano feito com fatias de berinjela empanadas e assadas com molho de tomate e queijo?",
+    "O que é utilizado como base para fazer uma paella tradicional espanhola?",
+    "Qual é o nome da técnica de cozimento onde os alimentos são selados rapidamente em uma panela muito quente?",
+    "Qual é o doce francês feito de clara de ovo batida com açúcar e assada em forno baixo?",
+    "Qual é o nome do prato de origem indiana feito de arroz temperado e misturado com diversos ingredientes, como legumes, carne ou frutos do mar?",
+    "O que é utilizado como ingrediente principal em uma mousse de chocolate?"
+];
+
+    var answers = [
+    "Ovo",
+    "Japão",
+    "Manjericão, azeite, pinhões, queijo parmesão",
+    "Taco",
+    "Parmigiana",
+    "Arroz",
+    "Sautée",
+    "Soufflé",
+    "Biryani",
+    "Chocolate"
+    ];
+
+    for (var i = 0; i < questions.length; i++) {
+        var response = prompt(questions[i]);
+        if (response == answers[i]) {
+            score++;
+        }
+    }
+
+    alert("Você acertou " + score + " de " + questions.length + " perguntas!");
+}
