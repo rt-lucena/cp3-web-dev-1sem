@@ -15,6 +15,10 @@ Receitas Deliciosas é um site dinâmico e interativo projetado para fornecer ao
 - **CSS:**  Para estilizar o site.
 - **JavaScript:** Para adicionar interatividade.
 
+## Acesso
+
+https://rt-lucena.github.io/cp3-web-dev-1sem/
+
 ## Colaboradores
 
 Este projeto foi possível graças ao esforço conjunto dos seguintes colaboradores:
