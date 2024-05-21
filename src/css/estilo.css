@@ -159,6 +159,15 @@ header a {
     border-radius: 5px;
 }
 
+/* Sobre */
+#sobre {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
 
 /* Contato */
 #bloco_contato {
