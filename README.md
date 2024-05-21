@@ -1,20 +1,26 @@
-Rafael lucena
-Lucas Feliciano
-
 # Receitas Deliciosas
 
-Receitas Deliciosas is a dynamic and interactive website designed to provide users with delicious recipes. The website includes features such as a login form and options to navigate between different pages like Home, About, and Contact.
+Receitas Deliciosas é um site dinâmico e interativo projetado para fornecer aos usuários receitas deliciosas. O site inclui recursos como um formulário de login e opções para navegar entre diferentes páginas como Início, Sobre e Contato.
 
-## Features
+## Recursos
 
-- **User-friendly Interface:** Intuitive navigation and interactive elements.
-- **Login Form:** Simple email and password fields for user authentication.
-- **Navigation:** Links to Home, About, and Contact pages.
-- **Color Change Button:** An interactive button to change the color scheme.
+- **Interface amigável ao usuário**: Navegação intuitiva e elementos interativos.
+- **Formulário de Login**: Simples campos de e-mail e senha para autenticação do usuário.
+- **Navegação**: Links para as páginas Início, Sobre e Contato.
+- **Botão de Mudança de Cor**: Um botão interativo para alterar o esquema de cores.
 
-## Technologies Used
+## Para estruturar as páginas da web.
 
-- **HTML:** For structuring the web pages.
-- **CSS:** For styling the website.
-- **JavaScript:** For adding interactivity.
+- **HTML:** Para estruturar as páginas da web.
+- **CSS:**  Para estilizar o site.
+- **JavaScript:** Para adicionar interatividade.
 
+## Colaboradores
+
+Este projeto foi possível graças ao esforço conjunto dos seguintes colaboradores:
+
+- **Rafael Teofilo Lucena**: RM 5556000
+- **Lucas Feliciano**: RM 557261
+- **Pablo Henrique Almeida Viera**: RM 558997
+- **Eduardo Vicentini Levy**: RM 554561
+- **Israel Araujo Henriques de Moura**: RM 559068
