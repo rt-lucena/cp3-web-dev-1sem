@@ -26,5 +26,4 @@ Este projeto foi possível graças ao esforço conjunto dos seguintes colaborado
 - **Rafael Teofilo Lucena**: RM 5556000
 - **Lucas Feliciano**: RM 557261
 - **Pablo Henrique Almeida Viera**: RM 558997
-- **Eduardo Vicentini Levy**: RM 554561
 - **Israel Araujo Henriques de Moura**: RM 559068
