@@ -169,8 +169,7 @@ header a {
     justify-content: center;
     align-items: center;
     width: 300px;
-    border-radius: 5px;
-    padding: black;
+    padding: 10px;
     margin: 20px auto;
 }
 
